@@ -34,7 +34,7 @@ type ErrsHTTP struct {
 }
 
 // fileDelim will be used as stopword for caller runtime
-const fileDelim = "go-projects/"
+const fileDelim = ""
 
 // New function will be used as initialized function
 // args can be string, *Errs, error, Fields, *ErrsHTTP data type
