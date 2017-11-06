@@ -27,7 +27,7 @@ func TestErrorWithFields(t *testing.T) {
 		"Field 2": "Value 2",
 	})
 	if err != nil {
-		t.Log("[TestErrorWithFields] Success with err: %s", err.Error())
+		t.Logf("[TestErrorWithFields] Success with err: %s", err.Error())
 		return
 	}
 	t.Error("[TestErrorWithFields] Failed")

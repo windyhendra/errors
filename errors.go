@@ -1,4 +1,4 @@
-// Errors package is to defined custom error golang package
+// Package errors is to defined custom error golang package
 // This package will add some contexts or informations for the error
 // The purpose is to make developer easier when read the errors
 // Also there're http error response, so it can defines what will return as http response when the system found the error
